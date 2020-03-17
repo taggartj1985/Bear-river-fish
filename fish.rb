@@ -8,16 +8,16 @@ class Fish
     @amount = amount
   end
 
-def fish_by_name()
-  return @fish.name
+def fish_by_name(name)
+  return @fish.name(name)
 end
 
-def fish_by_breed()
-  return @breed
+def fish_by_breed(breed)
+  return @fish.breed(breed)
 end
 
-def amount_of_fish()
-  return @breed
+def amount_of_fish(amount)
+  return @fish.amount(amount)
 end
 
 end
